@@ -219,17 +219,12 @@ a:hover {
 
 .main-heading{
     text-align:center;
-    /* padding-top:2rem; */
+    padding-top:4rem;
     margin-left: 2rem;
     margin-right: 2rem;
 }
 
-@media (min-width: 600px) {
-    .main-heading{
-        padding-top:2rem;
-    
-    }
-}
+
 
 .main-logo{
     display:flex;
@@ -244,16 +239,12 @@ a:hover {
 /* Main */
 
 main {
-    margin-top:1rem;
+    margin-top:4rem;
     margin-left: 2rem;
     margin-right: 2rem;
 }
 
-@media (min-width: 600px) {
-    main{
-        margin-top:4rem;
-    }
-}
+
 
 .spacing {
     max-width: 1300px;
