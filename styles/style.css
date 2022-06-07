@@ -120,14 +120,46 @@ a:hover {
 
 
 /* Hero Banner */
-.hero-banner {
+
+.carousel {
+    height:600px;
+  }
+  
+  .carousel-cell {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .carousel-cell-2 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/hero_2.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+
+  @media (min-width: 600px) {
+.carousel-cell-2{
+    background-position: left;
+}
+}
+  
+
+  
+/* .hero-banner {
     background-image: url("../images/hero.jpg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-}
+} */
 
 @media (min-width: 600px) {
     .hero-banner {
@@ -187,9 +219,16 @@ a:hover {
 
 .main-heading{
     text-align:center;
-    padding-top:2rem;
+    /* padding-top:2rem; */
     margin-left: 2rem;
     margin-right: 2rem;
+}
+
+@media (min-width: 600px) {
+    .main-heading{
+        padding-top:2rem;
+    
+    }
 }
 
 .main-logo{
@@ -205,8 +244,15 @@ a:hover {
 /* Main */
 
 main {
+    margin-top:1rem;
     margin-left: 2rem;
     margin-right: 2rem;
+}
+
+@media (min-width: 600px) {
+    main{
+        margin-top:4rem;
+    }
 }
 
 .spacing {

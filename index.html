@@ -5,6 +5,7 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3D7JHKQQS4"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -16,6 +17,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -51,7 +53,12 @@
 
 
 
-    <div class="hero-banner">
+    <!-- <div class="hero-banner"> -->
+        <div class="carousel" data-flickity='{ "pageDots": false, "wrapAround": true,"autoPlay":true }'>
+            <div class="carousel-cell"></div>
+            <div class="carousel-cell-2"></div>
+          </div>
+      
 
         <!-- <div class="hero-text">
             <h2>CoCo<span class="line-break"></span> Always Fresh</h2>
@@ -59,12 +66,12 @@
         </div> -->
 
     </div>
-<h1 class="main-heading">Sarawak's Freshest Beverage, Desert and Snacks Franchise </h1>
-<img class="logo" src="images/logo.png" alt="Coco Logo">
 
     <main>
 
         <div class="spacing">
+            <h1 class="main-heading">Sarawak's Freshest Beverage, Desert and Snacks Franchise </h1>
+            <img class="logo" src="images/logo.png" alt="Coco Logo">
             <h3 class="heading">Coco's Best Selling Products</h3>
             
                 <div class="menu">
